@@ -14,5 +14,20 @@ public class MainProgram {
 
         Property p5 = new Property("Address: Erzbergerstraße 5",26,50.01);
         System.out.println("Address: " + p5.getAddress() + "\nSize: " + p5.getSize() + " m²");
+
+        Stairs s1 = new Stairs(20.1,26,50.01);
+        System.out.println("Volumen der Treppe: " + s1.getSize() + "m³");
+
+        Stairs s2 = new Stairs(10.1,29,56.01);
+        System.out.println("Volumen der Treppe: " + s2.getSize() + "m³");
+
+        Stairs s3 = new Stairs(23.1,26,59.01);
+        System.out.println("Volumen der Treppe: " + s3.getSize() + "m³");
+
+        Stairs s4 = new Stairs(10.1,46,60.01);
+        System.out.println("Volumen der Treppe: " + s4.getSize() + "m³");
+
+        Stairs s5 = new Stairs(90.1,1000,100.01);
+        System.out.println("Volumen der Treppe: " + s5.getSize() + "m³");
     }
 }
